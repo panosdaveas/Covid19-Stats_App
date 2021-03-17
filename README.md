@@ -14,9 +14,15 @@ The database is created using Apache Derby JavaDB using the following driver :
 org.apache.derby.jdbc.ClientDriver
 ```
 Most probably your IDE already includes the driver but in any case it can be found here [Apache Derby](https://github.com/apache/derby.git).\
+In order for the code to compile you need to name the DB like this :
+```
+"3hGE_lib_testPU"
+```
+or else you need to find the occurences in the source files\
+and replace the name above with the one you chose.\
 Right after, you can copy the contents of the [init-table-script](init-table-script.sql) file in a
 database console and execute it.\
 Upon the execution the necessary tables are created and you are ready to go!
 # User manual
 Currently the existing [User manual](User_guide.pdf) is written in greek,\
-but an english version of it will soon be provided.
+but an english version of it will be soon provided.
