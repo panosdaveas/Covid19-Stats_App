@@ -1,5 +1,5 @@
 # Covid19-Stats_App
-A client app to the service [covid2019-api](https://covid2019-api.herokuapp.com/)
+A client app for the [covid2019-api](https://covid2019-api.herokuapp.com/) service
 that pulls the data provided in a local database.\
 The data include the following kinds (noted as timeseries) : 
 ```
