@@ -26,9 +26,11 @@ Upon the execution the necessary tables are created and you are ready to go.\
 Mind that the time needed to download the data depends on each user's hardware,\
 but a data fetch will take approximately 10 seconds in modern systems.
 # GUI
+The user can toggle between projecting the feched data in a\
+line chart, XML grid or in Google Maps.\
 The graphical interface is created with the notion to be\
 rather simple and straightforward and here are some screenshots of it :
-[Screenshot](<img width="909" alt="Screenshot 2021-03-14 at 5 42 46 PM" src="https://user-images.githubusercontent.com/63146477/111530889-860abb00-876c-11eb-8626-d46492d68061.png">)
+<img width="909" alt="Screenshot 2021-03-14 at 5 42 46 PM" src="https://user-images.githubusercontent.com/63146477/111530889-860abb00-876c-11eb-8626-d46492d68061.png">
 # User manual
 Currently the existing [User manual](User_guide.pdf) is written in greek,\
 but an english version of it will be soon provided.
