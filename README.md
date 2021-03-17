@@ -14,5 +14,5 @@ The database is created using Apache Derby JavaDB using the following driver :
 org.apache.derby.jdbc.ClientDriver
 ```
 that can be found here [Apache Derby](https://github.com/apache/derby.git).\
-Right after, you can copy the contents of the [init-table-script]() file in a\
+Right after, you can copy the contents of the [init-table-script](init-table-script.sql) file in a\
 database console and execute it.
