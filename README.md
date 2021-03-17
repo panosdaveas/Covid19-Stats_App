@@ -15,7 +15,8 @@ org.apache.derby.jdbc.ClientDriver
 ```
 Most probably your IDE already includes the driver but in any case it can be found here [Apache Derby](https://github.com/apache/derby.git).\
 Right after, you can copy the contents of the [init-table-script](init-table-script.sql) file in a
-database console and execute it.\ Upon the execution the necessary tables are created and you are ready to go!
+database console and execute it.\
+Upon the execution the necessary tables are created and you are ready to go!
 # User manual
 Currently the existing [User manual](User_guide.pdf) is written in greek,\
 but an english version of it will soon be provided.
