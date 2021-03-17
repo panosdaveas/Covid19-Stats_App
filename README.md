@@ -22,7 +22,13 @@ or else you need to find the occurences in the source files\
 and replace the name above with the one you chose.\
 Right after, you can copy the contents of the [init-table-script](init-table-script.sql) file in a
 database console and execute it.\
-Upon the execution the necessary tables are created and you are ready to go!
+Upon the execution the necessary tables are created and you are ready to go.
+Mind that the time needed to download the data depends on each user's hardware,\
+but a data fetch will take approximately 10 seconds in modern systems.
+# GUI
+The graphical interface is created with the notion to be\
+rather simple and straightforward and here are some screenshots of it :
+
 # User manual
 Currently the existing [User manual](User_guide.pdf) is written in greek,\
 but an english version of it will be soon provided.
