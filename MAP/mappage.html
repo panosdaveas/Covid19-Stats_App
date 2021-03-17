@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Google Maps Multiple Markers</title>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"
+            type="text/javascript"></script>
+</head>
+<body>
+<div id="map" style="width: 500px; height: 400px;"></div>
+<script type="text/javascript">
+    var locations = [
+    ['Angola, confirmed = 21446, deaths = 522, recovered = 19971', -11.2027, 17.8739, 1], ['Algeria, confirmed = 115540, deaths = 3045, recovered = 80103', 28.0339, 1.6596, 1], ['Armenia, confirmed = 179287, deaths = 3277, recovered = 166702', 40.0691, 45.0382, 1], 
+    ];
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 5,
+        center: new google.maps.LatLng(locations[0][1], locations[0][2]),
+        mapTypeId: google.maps.MapTypeId.ROADMAPS
+    });
+    var infowindow = new google.maps.InfoWindow();
+    var marker, i;
+    for (i = 0; i < locations.length; i++) { marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map });
+        google.maps.event.addListener(marker, 'click', (function(marker, i) { return function() {
+            infowindow.setContent(locations[i][0]);
+            infowindow.open(map, marker);
+        }
+        })(marker, i));
+    }
+</script>
+</body>
+</html>
